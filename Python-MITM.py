@@ -1,7 +1,7 @@
 from scapy.all import *
 
-gw = 000.000.000.000 // Enter default gateway
-target = 000.000.000.000 //Enter the targets IP address
+gw = 000.000.000.000 #Enter default gateway
+target = 000.000.000.000 #Enter the targets IP address
 def get_mac(ip):
     resp , noresp = sr(ARP(op=1, hwdst="ff:ff:ff:ff:ff:ff:ff:ff",pdst=ip),retry=2,timeout=5)
     for s,r in resp:
