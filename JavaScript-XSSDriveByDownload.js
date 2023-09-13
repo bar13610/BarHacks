@@ -1,4 +1,5 @@
-<script>function initiateFileDownload() {
+<script>
+  function initiateFileDownload() {
   // Create a new anchor element
   var link = document.createElement('a');
 
