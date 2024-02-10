@@ -1,5 +1,5 @@
 <script>
-        const serverIp = '000.000.000.000'; // Replace with the actual IP address !
+        const serverIp = '000.000.000.000'; // Replace with the actual IP address !!
         const numRequests = 10000; // Number of packets sent
 
         for (let i = 0; i < numRequests; i++) {
